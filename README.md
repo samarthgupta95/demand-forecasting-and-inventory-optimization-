@@ -87,15 +87,19 @@ The result is a recurring operational problem with costs on both sides. When dem
 ## 🔥 Strategic Recommendation Snapshot
 
 **01 — Treat Holiday Weeks as a Separate Planning Regime**
+
 The 7.5% average holiday lift masks individual store spikes that SARIMA completely failed to capture (MAPE 190%). Holiday inventory decisions require a dedicated replenishment protocol — not a scaled version of a standard week. Prophet's holiday regressor confirms the demand structure is predictable once correctly modelled.
 
 **02 — Differentiate Inventory Strategy by Store Revenue Tier**
+
 The 6× revenue gap between top-tier stores (Stores 20, 4, 14 at $280M+) and bottom-tier stores (Stores 5, 33, 44 below $50M) means a uniform EOQ policy systematically over-stocks low-volume stores and under-stocks high-volume ones. Tier-specific reorder parameters are warranted.
 
 **03 — Prioritise Safety Stock Investment in High-Volatility Departments**
+
 Store-department combinations with CV above 2.0 — including Store 35 Dept 59 (3.35), Store 31 Dept 99 (2.94), and Store 13 Dept 99 (2.83) — require materially higher safety stock buffers than the portfolio-wide EOQ model assumes. A volatility-adjusted Z-score approach should replace the single 95% service level assumption across all departments.
 
 **04 — Anchor Markdown Planning Around Departments 92, 95, and 38**
+
 These three departments account for $1.33B in total sales across the dataset period. Markdown timing and depth decisions for these departments carry outsized financial consequences and should be modelled explicitly rather than treated as uniform promotional activity.
 
 *Full strategic breakdown with department-level numbers and recommended steps available in the project notebook.*

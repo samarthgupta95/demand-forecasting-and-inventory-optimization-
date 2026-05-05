@@ -27,7 +27,7 @@ The result is a recurring operational problem with costs on both sides. When dem
 
 ## 📂 Dataset & Scope
 
-- **Source:** [Walmart Store Sales Forecasting — Kaggle](https://www.kaggle.com/competitions/walmart-recruiting-store-sales-forecasting/data)
+- **Source:** [Walmart Store Sales Forecasting — Kaggle](https://www.kaggle.com/datasets/aslanahmedov/walmart-sales-forecast)
 - **Raw dataset:** train.csv (421,570 rows × 5 cols) merged with features.csv (8,190 rows × 12 cols)
 - **Cleaned dataset:** 420,285 rows × 14 columns
 - **Coverage:** 45 stores · 81 departments · February 2010 – October 2012
